@@ -152,7 +152,7 @@ class Product:
 if __name__ == '__main__':
     window = Tk()
     style = ttk.Style()
-    window.iconbitmap("beehigh-b-min.ico")
+    window.iconbitmap("machine_learning//beehigh-b-min.ico")
     style.theme_use("clam")
     aplication = Product(window)
     window.mainloop()
